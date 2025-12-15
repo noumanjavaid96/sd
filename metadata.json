@@ -1,0 +1,7 @@
+{
+  "name": "Gemini Live Talking Avatar",
+  "description": "An interactive web application featuring a 3D avatar that engages in real-time conversations using Google's Gemini 2.5 Native Audio (Live API). The avatar provides spoken responses with synchronized lip movements.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
