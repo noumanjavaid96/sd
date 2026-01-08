@@ -11,7 +11,7 @@ import type { SessionState, ConversationEntry } from './types';
 import { IconAlertTriangle, IconSettings } from './components/Icons';
 
 // A free to use Ready Player Me Avatar
-const AVATAR_URL = 'https://models.readyplayer.me/6695781a8c714a6e35520894.glb';
+const AVATAR_URL = 'https://models.readyplayer.me/695f64061c1817592c76e385.glb';
 
 const App: React.FC = () => {
   const [sessionState, setSessionState] = useState<SessionState>('idle');
