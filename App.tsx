@@ -74,6 +74,10 @@ const App: React.FC = () => {
   };
 
   const handleStop = () => {
+    // Stop the avatar from speaking
+    if (talkingHeadRef.current) {
+      talkingHeadRef.current.stopSpeaking();
+    }
     stopSession();
     setCurrentUserText('');
     setCurrentModelText('');
